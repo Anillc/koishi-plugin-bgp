@@ -1,0 +1,23 @@
+{
+  "name": "koishi-plugin-bgp",
+  "version": "1.0.0",
+  "description": "BGP Tool",
+  "main": "lib/index.js",
+  "repository": "https://github.com/Anillc/koishi-plugin-bgp",
+  "author": "anillc",
+  "license": "MIT",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "coffee -o lib/ -c src/"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.5.1"
+  },
+  "dependencies": {
+    "koishi": "^3.2.0",
+    "superagent": "^6.1.0",
+    "whois": "^2.13.3"
+  }
+}
