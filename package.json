@@ -7,16 +7,18 @@
   "author": "anillc",
   "license": "MIT",
   "files": [
-    "lib/"
+    "lib"
   ],
   "scripts": {
     "build": "coffee -o lib/ -c src/"
+  },
+  "peerDependencies": {
+    "koishi-core": "^3.2.0",
   },
   "devDependencies": {
     "coffeescript": "^2.5.1"
   },
   "dependencies": {
-    "koishi": "^3.2.0",
     "superagent": "^6.1.0",
     "whois": "^2.13.3"
   }
