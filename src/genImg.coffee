@@ -1,4 +1,4 @@
-{ s } = require 'koishi'
+{ s } = require 'koishi-core'
 
 sleep = (time) -> new Promise (rev) -> setTimeout rev, time
 
