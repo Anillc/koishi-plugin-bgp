@@ -13,7 +13,7 @@
     "build": "coffee -o lib/ -c src/"
   },
   "peerDependencies": {
-    "koishi-core": "^3.2.0",
+    "koishi-core": "^3.2.0"
   },
   "devDependencies": {
     "coffeescript": "^2.5.1"

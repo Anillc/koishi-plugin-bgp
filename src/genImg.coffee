@@ -4,7 +4,7 @@ sleep = (time) -> new Promise (rev) -> setTimeout rev, time
 
 module.exports = (browser, text) ->
   try
-    page = await browser.newPage()
+    page = await browser.page()
     await page.setContent "<pre id=\"text\">#{text}</pre>"
     element = await page.$ '#text'
     { width, height } = await element.boundingBox()

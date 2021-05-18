@@ -12,7 +12,7 @@ module.exports = (cmd, config) ->
     .option 'text', '-t 以文本格式输出'
     .action ({session, options}, query) ->
       {dn42, server, text} = options
-      browser = cmd.app.browser
+      browser = cmd.app.puppeteer
       server = config.dn42 if dn42
       try
         if server
